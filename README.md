@@ -6,6 +6,6 @@ A jquery event handler based on Christian Heilmann and Lawrence Carvalho article
 Example :
 ---------
 
-  $('body').bind('textresize', function () {
-    console.log('text resized !');
-  });
+    $('body').bind('textresize', function () {
+      console.log('text resized !');
+    });
