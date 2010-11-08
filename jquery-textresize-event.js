@@ -22,7 +22,7 @@
       var element = $(this)
         , child = $('<span>&nbsp</span>')
                   .css({display:'inline',left:'-9999px',position:'absolute'})
-                  .appendTo(element)
+                  .appendTo(this == window ? 'body' : element)
         , timer = window.setInterval(detect(element, child), interval);
         
         element.data(CHILD, child)
