@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text Resize</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="../jquery-textresize-event.js"></script>
+  </head>
+  <body>
+    <div class="test">
+      This is a text
+    </div>
+    <div class="test">
+      This is another text
+    </div>
+    <script>
+      $(".test").bind("textresize", function () {
+        console.log('resized');
+        $(this).unbind("textresize");
+      });
+    </script>
+  </body>
+</html>
+    

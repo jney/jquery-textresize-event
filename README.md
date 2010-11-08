@@ -1,0 +1,1 @@
+based Christian Heilmann and Lawrence Carvalho article @ http://www.alistapart.com/articles/fontresizing
